@@ -1791,6 +1791,8 @@ checksum = "0046fef7e28c3804e5e38bfa31ea2a0f73905319b677e57ebe37e49358989b5d"
 [[package]]
 name = "weaver_protos_rs"
 version = "1.5.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2bef7cf759e0b935ced09d8d867b8f74397bf8247a649b34705f7b18fb12ce2c"
 dependencies = [
  "prost",
  "serde 1.0.159",
@@ -1809,9 +1811,9 @@ dependencies = [
 
 [[package]]
 name = "webpki"
-version = "0.22.0"
+version = "0.22.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f095d78192e208183081cc07bc5515ef55216397af48b873e5edcd72637fa1bd"
+checksum = "07ecc0cd7cac091bf682ec5efa18b1cff79d617b84181f38b3951dbe135f607f"
 dependencies = [
  "ring",
  "untrusted",
